@@ -1,12 +1,28 @@
-* {
+body{
+    font-family: "Fira Sans", sans-serif;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    background: white;
 }
 
-header {
-    background-color: steelblue;
+header{
+    background: steelblue;
     color: white;
     text-align: center;
-    padding: 20px;
+}
+
+#course-title{
+    display: block;
+    padding-top: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+nav a{
+    color: steelblue;
+    padding: 15px;
+    text-decoration: none;
 }
