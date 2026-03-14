@@ -45,12 +45,18 @@ main{
 h1{
     grid-column: 1 / -1;
     text-align: center;
+    margin-top: 0;
 }
 
 h2{
     text-align: center;
     background-color: steelblue;
     color: white
+}
+
+h3{
+    text-align: center;
+    border-bottom: 2px solid black;
 }
 
 .card{
@@ -61,10 +67,44 @@ h2{
 }
 
 .card img{
-    width: 150px;
+    width: 120px;
+    height: auto;
     float: right;
-    margin-left: 10px;
+    margin-left: 15px;
 }
+
+.card h2{
+    background-color: steelblue;
+    color: white;
+    margin: -20px -20px 15px -20px;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.card ul{
+    padding: 25px 20px;
+    width: fit-content;
+    margin: 0 auto;
+    list-style-position: inside;
+}
+
+.flag{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.flag img{
+    width: 120px;
+    height: auto;
+}
+
+.caption{
+    font-size: 10px;
+    font-style: italic;
+}
+
 
 footer{
     background: steelblue;
