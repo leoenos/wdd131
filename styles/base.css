@@ -1,0 +1,9 @@
+* {
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    background-color: rgb(120, 164, 229);
+    text-align: center;
+    padding: 0.8rem;
+}
