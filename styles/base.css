@@ -25,17 +25,17 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-    background-color: pink;
+    background-color: rgb(189, 208, 215);
 }
 
 nav a {
-    color: white;
+    color: black;
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:hover {
-    background-color: lightgray;
+    background-color: gray;
 }
 
 main {
@@ -96,4 +96,31 @@ h1 {
 
 .location img {
     width: 150px;
+}
+
+figure {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.card ul {
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.card li {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: rgb(120, 164, 229);
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+#lastModified {
+    color: yellow;
+    margin-top: 0.5rem;
 }
