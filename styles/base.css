@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: teal;
+    color: white;
+}
+
+.navigation a {
+    color: white;
+}
