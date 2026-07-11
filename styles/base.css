@@ -9,12 +9,96 @@ header {
     color: white;
 }
 
-.navigation a {
+nav {
+    display: flex;
+    justify-content: space-around;
     background-color: rgb(54, 54, 54);
+}
+
+.navigation a {
     color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background: lightgray;
+    color: black;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+main h1 {
+    color: rgb(54, 54, 54)
 }
 
 main img {
     width: 150px;
     height: auto;
+}
+
+h1 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(0, 70, 128);
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px slategray;
+}
+
+.card p {
+    padding: 5px;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+.card h2 {
+    background-color: rgb(0, 70, 128);
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.card ul {
+    padding: 25px 20px;
+    width: fit-content;
+    margin: 0 auto;
+    line-height: 1.8;
+    list-style-position: inside;
+}
+
+footer {
+    background-color: rgb(0, 70, 128);
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
