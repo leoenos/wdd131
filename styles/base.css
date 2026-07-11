@@ -11,7 +11,7 @@ header {
 
 #course-title{
     display: block;
-    padding-top: 20px;
+    padding: 15px;
 }
 
 nav {
@@ -41,25 +41,24 @@ main {
     gap: 20px;
 }
 
-main h1 {
-    color: rgb(54, 54, 54)
-}
-
 main img {
     width: 150px;
     height: auto;
 }
 
-h1 {
+main h2 {
     grid-column: 1 / -1;
     text-align: center;
     margin-top: 0;
+    font-size: 45px;
+    color: rgb(54, 54, 54);
 }
 
-h2 {
+.card h2 {
     text-align: center;
     background-color: rgb(0, 70, 128);
     color: white;
+    font-size: 30px;
 }
 
 h3 {
