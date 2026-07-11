@@ -88,6 +88,23 @@ h3 {
     text-align: center;
 }
 
+.flag {
+    float: left;
+    margin: 10px 15px 10px 0;
+    text-align: center;
+}
+
+.flag img {
+    width: 150px;
+    height: auto;
+}
+
+.flag figcaption {
+    font-size: 0.8rem;
+    font-style: italic;
+    margin-top: 5px;
+}
+
 .card ul {
     padding: 25px 20px;
     width: fit-content;
