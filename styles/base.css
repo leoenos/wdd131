@@ -9,6 +9,11 @@ header {
     color: white;
 }
 
+#course-title{
+    display: block;
+    padding-top: 20px;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
