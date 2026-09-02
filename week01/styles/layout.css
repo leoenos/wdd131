@@ -1,0 +1,15 @@
+header {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
