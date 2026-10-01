@@ -8,6 +8,9 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Le'olani Enos</title>
     <link rel="stylesheet" href="styles/base.css">
     <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -26,26 +29,37 @@
     <main>
         <h1>Le'olani Enos</h1>
 
-        <section class="card">
-            <h2>About Me</h2>
-            <p>Hi! I'm Le'olani Enos and I'm a student at BYU Pathways! I'm currently working for a medical laboratory, but hope to one day finish my degree in computer science and start a career. I love to play videogames, read, and listen to music. Nice to meet ya!</p>
-            <img src="images/low_res_bulbasaur_alt.jpg" alt="Le'olani Enos">
-            <h3>Denver, Colorado, USA</h3>
-            <p>Known for the famous Rocky Mountains, Colorado has many diverse biomes and habitats home to many wonderful aspect of nature. Also a popular state for recreational activities such as skiing, hiking, and bouldering.</p>
-            <figure>
-                <img src="images/co_state_flag.png" alt="State flag of Colorado">
-                <figcaption>State flag of Colorado</figcaption>
-            </figure>
-        </section>
-        <section class="card">
-            <h2>Web Dev Resources</h2>
-            <ul>
-                <li><a href="#">Stack Overflow</a></li>
-                <li><a href="#">YouTube</a></li>
-                <li><a href="#">Canvas</a></li>
-                <li><a href="#">w3schools</a></li>
-            </ul>
-        </section>
+        <div class="card-container">
+            <section class="card">
+                <h2>About Me</h2>
+
+                <div class="about-me">
+                    <p>Hi! I'm Le'olani Enos and I'm a student at BYU Pathways! I'm currently working for a medical laboratory, but hope to one day finish my degree in computer science and start a career. I love to play videogames, read, and listen to music. Nice to meet ya!</p>
+                    <img src="images/low_res_bulbasaur_alt.jpg" alt="Le'olani Enos">
+                </div>
+
+                <h3>Denver, Colorado, USA</h3>
+
+                <div class="state">
+                    <figure>
+                        <img src="images/co_state_flag.png" alt="State flag of Colorado">
+                        <figcaption>State flag of Colorado</figcaption>
+                    </figure>
+                    <p>Known for the famous Rocky Mountains, Colorado has many diverse biomes and habitats home to many wonderful aspect of nature. Also a popular state for recreational activities such as skiing, hiking, and bouldering.</p>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2>Web Dev Resources</h2>
+
+                <ul class="resources">
+                    <li><a href="https://stackoverflow.com/questions">Stack Overflow</a></li>
+                    <li><a href="https://www.youtube.com/">YouTube</a></li>
+                    <li><a href="https://byupw.instructure.com/">Canvas</a></li>
+                    <li><a href="https://www.w3schools.com/html/">w3schools</a></li>
+                </ul>
+            </section>
+        </div>
     </main>
 
     <footer>
