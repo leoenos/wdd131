@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a327c;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+#course-title {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+nav {
+    background-color: #252525;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #1a327c;
+}
+
+main {
+    padding: 1rem;
+}
